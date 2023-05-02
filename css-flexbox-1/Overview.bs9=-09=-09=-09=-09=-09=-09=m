@@ -263,7 +263,7 @@ Introduction</h2>
 
 	<em>This section is not normative.</em>
 
-	CSS 2.1 defined four layout modes &mdash; algorithms which determine
+	CSS 2.1 defined four layout models &mdash; algorithms which determine
 	the size and position of boxes based on their relationships
 	with their sibling and ancestor boxes:
 
@@ -272,7 +272,7 @@ Introduction</h2>
 	* table layout, designed for laying out 2D data in a tabular format
 	* positioned layout, designed for very explicit positioning without much regard for other elements in the document
 
-	This module introduces a new layout mode, <dfn export>flex layout</dfn>,
+	This module introduces a new layout model, <dfn export>flex layout</dfn>,
 	which is designed for laying out more complex applications and webpages.
 
 <h3 id="overview">
@@ -1807,7 +1807,7 @@ Alignment</h2>
 	so as to not create a normative dependency that may slow down advancement of the spec.
 	These properties apply only to flex layout
 	until <a href="https://www.w3.org/TR/css3-align/">CSS Box Alignment Level 3</a> is finished
-	and defines their effect for other layout modes.
+	and defines their effect for other layout models.
 	Additionally, any new values defined in the Box Alignment module
 	will apply to Flexible Box Layout;
 	in other words, the Box Alignment module, once completed,
